@@ -34,16 +34,7 @@ for i in range(N-1,-1,-1):
 # ( because the first element is already added by List , hence leave it out.)
 print('\n'.join(List + List[N-2::-1]))
 
-###
-# L = []
-# for i in range(N):
-#     s = "-".join(alphabets[i:N])
-#     print(s)
-#     L.append((s[::-1]+s[1:]).center(4*N-3, "-"))
-#     print(L)
-#
-# print(L)
-# print('\n'.join(L[:0:-1]+L))
+
 
 
 """Output for referance:
